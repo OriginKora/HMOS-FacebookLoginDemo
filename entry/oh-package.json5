@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Facebook 登录 SDK 使用示例",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@kora/fb-login": "file:../libs/facebookLogin.har"
+  }
+}
+

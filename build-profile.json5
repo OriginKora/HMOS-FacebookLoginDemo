@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\pc\\.ohos\\config\\default_FacebookLoginDemo_zHAQmGEOHMTK1C4bM8hycOJ102wx24ZK0fujUrjqyCA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B5F911ED3B15D1551ACD813814B88244AEB9CD0C279DDF6EBD28A62CACD465AAA0B12EFFE06D420",
+          "profile": "C:\\Users\\pc\\.ohos\\config\\default_FacebookLoginDemo_zHAQmGEOHMTK1C4bM8hycOJ102wx24ZK0fujUrjqyCA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\pc\\.ohos\\config\\default_FacebookLoginDemo_zHAQmGEOHMTK1C4bM8hycOJ102wx24ZK0fujUrjqyCA=.p12",
+          "storePassword": "0000001B7FAE6E50EF6AFD0E4B8622FBC5966A0B674548D6FF4674B7BB7BB3AE8E03F91364DAECF79B26F7"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
